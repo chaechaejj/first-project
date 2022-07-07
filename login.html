@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01</title>
+</head>
+<br><br><br><br>
+<body align=center>
+<table align=center id=tblone>
+<tr><td colspan=2><img src='c:/image/아이콘_로고조합_인쇄용(고해상도_CMYK).png' style='width:150px;height:40px'></td></tr>
+<tr><th>ID</th><td><input type=text name=userid></td></tr>
+<tr><th>PW</th><td><input type=password name=pass></td></tr>
+<tr><td colspan=2 align=center><input type=button id=btnSign value='회원가입'>&nbsp;&nbsp;&nbsp;
+							   <input type=submit value='로그인'></td></tr>
+</table>
+</body>
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+$(document)
+.on('click','#btnSign',function(){
+	document.location="sign";
+})
+</script>
+</html>
